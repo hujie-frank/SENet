@@ -326,6 +326,14 @@ __global__ void AvePoolBackward(const int nthreads, const Dtype* const top_diff,
   }
 }
 
+template <typename Dtype> 
+__global__ void GlobalAvePoolBackward(const int nthreads, const int spatial_dim, 
+    const Dtype* top_diff, Dtype* bottom_diff) {
+  CUDA_KERNEL_LOOP(index, nthreads) {
+    const int n = index / spatial_dim;
+    bottom_diff[index] = top_diff[n] / spatial_dim;
+  }
+}
 
 template <typename Dtype>
 __global__ void StoPoolBackward(const int nthreads,
@@ -397,12 +405,19 @@ void PoolingLayer<Dtype>::Backward_gpu(const vector<Blob<Dtype>*>& top,
         kernel_w_, stride_h_, stride_w_, pad_h_, pad_w_, bottom_diff);
     break;
   case PoolingParameter_PoolMethod_STOCHASTIC:
-    // NOLINT_NEXT_LINE(whitespace/operators)
-    StoPoolBackward<Dtype><<<CAFFE_GET_BLOCKS(count), CAFFE_CUDA_NUM_THREADS>>>(
-        count, rand_idx_.gpu_data(), top_diff,
-        top[0]->num(), channels_, height_, width_, pooled_height_,
-        pooled_width_, kernel_h_, kernel_w_, stride_h_, stride_w_,
-        bottom_diff);
+    if (this->layer_param_.pooling_param().global_pooling()) {
+      // NOLINT_NEXT_LINE(whitespace/operators)
+      GlobalAvePoolBackward<Dtype><<<CAFFE_GET_BLOCKS(count), CAFFE_CUDA_NUM_THREADS>>>(
+          count, bottom[0]->count(2), 
+          top_diff, bottom_diff);
+    } else {
+      // NOLINT_NEXT_LINE(whitespace/operators)
+      StoPoolBackward<Dtype><<<CAFFE_GET_BLOCKS(count), CAFFE_CUDA_NUM_THREADS>>>(
+          count, rand_idx_.gpu_data(), top_diff,
+          top[0]->num(), channels_, height_, width_, pooled_height_,
+          pooled_width_, kernel_h_, kernel_w_, stride_h_, stride_w_,
+          bottom_diff);
+    }
     break;
   default:
     LOG(FATAL) << "Unknown pooling method.";
