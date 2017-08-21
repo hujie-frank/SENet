@@ -32,7 +32,7 @@ If you use Squeeze-and-Excitation Networks in your research, please cite the pap
     
     @article{hu2017,
       title={Squeeze-and-Excitation Networks},
-      author={Jie Hu and Li Shen and Gang Sun and Andrew Zisserman},
+      author={Jie Hu and Li Shen and Gang Sun and Andrew Zisserman},
       journal={arXiv preprint arXiv:},
       year={2017}
     }
