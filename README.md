@@ -23,7 +23,7 @@ Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from r
 |SENet          | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing)
 
 Different from the results reported in the paper which using large batch-size and leraning rate with fixed iterations, 
-We retrained all above models on a single GPU server equipped with 8 NVIDAI Titan X cards, 
+we retrained all above models on a single GPU server equipped with 8 NVIDAI Titan X cards, 
 using a mini-batch of 256 and a initial learning rate of 0.1 with more epoches and eventaully obtained better performances.
 
 ## Citation
