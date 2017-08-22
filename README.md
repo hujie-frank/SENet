@@ -4,7 +4,7 @@ By Jie Hu<sup>[1]</sup>, Li Shen<sup>[2]</sup>, Gang Sun<sup>[1]</sup>, Andrew Z
 [Momenta](https://momenta.ai/)<sup>[1]</sup> and University of Oxford<sup>[2]</sup>.
 
 ## Implementation
-In this repository，Squeeze-and-Excitation Networks are implemented by [Caffe](https://github.com/BVLC/caffe).
+In this repository, Squeeze-and-Excitation Networks are implemented by [Caffe](https://github.com/BVLC/caffe).
 
 ### Note:
 * For efficient training and testing, we combine the consecutive operations ***channel-wise scale*** and ***element-wise summation*** into a single layer **"Axpy"** in the architectures with skip-connections, resulting in considerable memory and time comsuming reduce.
@@ -23,7 +23,7 @@ Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from r
 |SENet<sup>*</sup> | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing)
 
 Here we obtain better performances than those reported in the paper.
-we re-train all above models on a single GPU server equipped with 8 NVIDIA Titan X cards, 
+We re-train all above models on a single GPU server equipped with 8 NVIDIA Titan X cards, 
 using a mini-batch of 256 and a initial learning rate of 0.1 with more epoches. 
 In our paper, we use large batch-size (1024) and learning rate (0.6). 
 
