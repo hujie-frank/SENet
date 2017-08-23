@@ -20,6 +20,7 @@ Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from r
 |SE-BN-Inception| 23.62 | 7.04 | 46 M| [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlTWRRbDZYbVB2WWc/view?usp=sharing)
 |SE-ResNet-50   | 22.37 | 6.36 | 107 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlS2QwZHFzM3RjNzg/view?usp=sharing)
 |SE-ResNet-101  | 21.75  | 5.72 | 189 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlTEg4YmcwQ0FoZFU/view?usp=sharing)
+|SE-ResNet-152  | 21.34  | 5.54 | 189 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlcFE0Q2NTcWl3WUE/view?usp=sharing)
 |SENet<sup>*</sup> | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing)
 
 Here we obtain better performances than those reported in the paper.
