@@ -69,7 +69,6 @@ layer {
   convolution_param {
     num_output: 64
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -143,7 +142,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -184,7 +182,6 @@ layer {
   top: "conv2_1_1x1_down"
   convolution_param {
     num_output: 16
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -202,7 +199,6 @@ layer {
   top: "conv2_1_1x1_up"
   convolution_param {
     num_output: 256
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -221,7 +217,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -266,7 +261,6 @@ layer {
   convolution_param {
     num_output: 64
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -340,7 +334,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -381,7 +374,6 @@ layer {
   top: "conv2_2_1x1_down"
   convolution_param {
     num_output: 16
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -399,7 +391,6 @@ layer {
   top: "conv2_2_1x1_up"
   convolution_param {
     num_output: 256
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -432,7 +423,6 @@ layer {
   convolution_param {
     num_output: 64
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -506,7 +496,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -547,7 +536,6 @@ layer {
   top: "conv2_3_1x1_down"
   convolution_param {
     num_output: 16
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -565,7 +553,6 @@ layer {
   top: "conv2_3_1x1_up"
   convolution_param {
     num_output: 256
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -598,7 +585,6 @@ layer {
   convolution_param {
     num_output: 128
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 2
   }
@@ -672,7 +658,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -713,7 +698,6 @@ layer {
   top: "conv3_1_1x1_down"
   convolution_param {
     num_output: 32
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -731,7 +715,6 @@ layer {
   top: "conv3_1_1x1_up"
   convolution_param {
     num_output: 512
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -750,7 +733,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 2
   }
@@ -795,7 +777,6 @@ layer {
   convolution_param {
     num_output: 128
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -869,7 +850,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -910,7 +890,6 @@ layer {
   top: "conv3_2_1x1_down"
   convolution_param {
     num_output: 32
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -928,7 +907,6 @@ layer {
   top: "conv3_2_1x1_up"
   convolution_param {
     num_output: 512
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -961,7 +939,6 @@ layer {
   convolution_param {
     num_output: 128
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1035,7 +1012,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1076,7 +1052,6 @@ layer {
   top: "conv3_3_1x1_down"
   convolution_param {
     num_output: 32
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1094,7 +1069,6 @@ layer {
   top: "conv3_3_1x1_up"
   convolution_param {
     num_output: 512
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1127,7 +1101,6 @@ layer {
   convolution_param {
     num_output: 128
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1201,7 +1174,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1242,7 +1214,6 @@ layer {
   top: "conv3_4_1x1_down"
   convolution_param {
     num_output: 32
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1260,7 +1231,6 @@ layer {
   top: "conv3_4_1x1_up"
   convolution_param {
     num_output: 512
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1293,7 +1263,6 @@ layer {
   convolution_param {
     num_output: 128
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1367,7 +1336,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1408,7 +1376,6 @@ layer {
   top: "conv3_5_1x1_down"
   convolution_param {
     num_output: 32
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1426,7 +1393,6 @@ layer {
   top: "conv3_5_1x1_up"
   convolution_param {
     num_output: 512
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1459,7 +1425,6 @@ layer {
   convolution_param {
     num_output: 128
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1533,7 +1498,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1574,7 +1538,6 @@ layer {
   top: "conv3_6_1x1_down"
   convolution_param {
     num_output: 32
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1592,7 +1555,6 @@ layer {
   top: "conv3_6_1x1_up"
   convolution_param {
     num_output: 512
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1625,7 +1587,6 @@ layer {
   convolution_param {
     num_output: 128
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1699,7 +1660,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1740,7 +1700,6 @@ layer {
   top: "conv3_7_1x1_down"
   convolution_param {
     num_output: 32
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1758,7 +1717,6 @@ layer {
   top: "conv3_7_1x1_up"
   convolution_param {
     num_output: 512
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1791,7 +1749,6 @@ layer {
   convolution_param {
     num_output: 128
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1865,7 +1822,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1906,7 +1862,6 @@ layer {
   top: "conv3_8_1x1_down"
   convolution_param {
     num_output: 32
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1924,7 +1879,6 @@ layer {
   top: "conv3_8_1x1_up"
   convolution_param {
     num_output: 512
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -1957,7 +1911,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 2
   }
@@ -2031,7 +1984,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2072,7 +2024,6 @@ layer {
   top: "conv4_1_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2090,7 +2041,6 @@ layer {
   top: "conv4_1_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2109,7 +2059,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 2
   }
@@ -2154,7 +2103,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2228,7 +2176,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2269,7 +2216,6 @@ layer {
   top: "conv4_2_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2287,7 +2233,6 @@ layer {
   top: "conv4_2_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2320,7 +2265,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2394,7 +2338,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2435,7 +2378,6 @@ layer {
   top: "conv4_3_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2453,7 +2395,6 @@ layer {
   top: "conv4_3_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2486,7 +2427,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2560,7 +2500,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2601,7 +2540,6 @@ layer {
   top: "conv4_4_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2619,7 +2557,6 @@ layer {
   top: "conv4_4_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2652,7 +2589,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2726,7 +2662,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2767,7 +2702,6 @@ layer {
   top: "conv4_5_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2785,7 +2719,6 @@ layer {
   top: "conv4_5_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2818,7 +2751,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2892,7 +2824,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2933,7 +2864,6 @@ layer {
   top: "conv4_6_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2951,7 +2881,6 @@ layer {
   top: "conv4_6_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -2984,7 +2913,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3058,7 +2986,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3099,7 +3026,6 @@ layer {
   top: "conv4_7_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3117,7 +3043,6 @@ layer {
   top: "conv4_7_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3150,7 +3075,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3224,7 +3148,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3265,7 +3188,6 @@ layer {
   top: "conv4_8_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3283,7 +3205,6 @@ layer {
   top: "conv4_8_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3316,7 +3237,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3390,7 +3310,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3431,7 +3350,6 @@ layer {
   top: "conv4_9_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3449,7 +3367,6 @@ layer {
   top: "conv4_9_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3482,7 +3399,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3556,7 +3472,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3597,7 +3512,6 @@ layer {
   top: "conv4_10_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3615,7 +3529,6 @@ layer {
   top: "conv4_10_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3648,7 +3561,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3722,7 +3634,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3763,7 +3674,6 @@ layer {
   top: "conv4_11_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3781,7 +3691,6 @@ layer {
   top: "conv4_11_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3814,7 +3723,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3888,7 +3796,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3929,7 +3836,6 @@ layer {
   top: "conv4_12_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3947,7 +3853,6 @@ layer {
   top: "conv4_12_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -3980,7 +3885,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4054,7 +3958,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4095,7 +3998,6 @@ layer {
   top: "conv4_13_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4113,7 +4015,6 @@ layer {
   top: "conv4_13_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4146,7 +4047,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4220,7 +4120,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4261,7 +4160,6 @@ layer {
   top: "conv4_14_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4279,7 +4177,6 @@ layer {
   top: "conv4_14_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4312,7 +4209,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4386,7 +4282,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4427,7 +4322,6 @@ layer {
   top: "conv4_15_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4445,7 +4339,6 @@ layer {
   top: "conv4_15_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4478,7 +4371,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4552,7 +4444,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4593,7 +4484,6 @@ layer {
   top: "conv4_16_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4611,7 +4501,6 @@ layer {
   top: "conv4_16_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4644,7 +4533,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4718,7 +4606,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4759,7 +4646,6 @@ layer {
   top: "conv4_17_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4777,7 +4663,6 @@ layer {
   top: "conv4_17_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4810,7 +4695,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4884,7 +4768,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4925,7 +4808,6 @@ layer {
   top: "conv4_18_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4943,7 +4825,6 @@ layer {
   top: "conv4_18_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -4976,7 +4857,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5050,7 +4930,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5091,7 +4970,6 @@ layer {
   top: "conv4_19_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5109,7 +4987,6 @@ layer {
   top: "conv4_19_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5142,7 +5019,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5216,7 +5092,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5257,7 +5132,6 @@ layer {
   top: "conv4_20_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5275,7 +5149,6 @@ layer {
   top: "conv4_20_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5308,7 +5181,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5382,7 +5254,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5423,7 +5294,6 @@ layer {
   top: "conv4_21_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5441,7 +5311,6 @@ layer {
   top: "conv4_21_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5474,7 +5343,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5548,7 +5416,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5589,7 +5456,6 @@ layer {
   top: "conv4_22_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5607,7 +5473,6 @@ layer {
   top: "conv4_22_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5640,7 +5505,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5714,7 +5578,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5755,7 +5618,6 @@ layer {
   top: "conv4_23_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5773,7 +5635,6 @@ layer {
   top: "conv4_23_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5806,7 +5667,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5880,7 +5740,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5921,7 +5780,6 @@ layer {
   top: "conv4_24_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5939,7 +5797,6 @@ layer {
   top: "conv4_24_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -5972,7 +5829,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6046,7 +5902,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6087,7 +5942,6 @@ layer {
   top: "conv4_25_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6105,7 +5959,6 @@ layer {
   top: "conv4_25_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6138,7 +5991,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6212,7 +6064,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6253,7 +6104,6 @@ layer {
   top: "conv4_26_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6271,7 +6121,6 @@ layer {
   top: "conv4_26_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6304,7 +6153,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6378,7 +6226,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6419,7 +6266,6 @@ layer {
   top: "conv4_27_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6437,7 +6283,6 @@ layer {
   top: "conv4_27_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6470,7 +6315,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6544,7 +6388,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6585,7 +6428,6 @@ layer {
   top: "conv4_28_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6603,7 +6445,6 @@ layer {
   top: "conv4_28_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6636,7 +6477,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6710,7 +6550,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6751,7 +6590,6 @@ layer {
   top: "conv4_29_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6769,7 +6607,6 @@ layer {
   top: "conv4_29_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6802,7 +6639,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6876,7 +6712,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6917,7 +6752,6 @@ layer {
   top: "conv4_30_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6935,7 +6769,6 @@ layer {
   top: "conv4_30_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -6968,7 +6801,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7042,7 +6874,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7083,7 +6914,6 @@ layer {
   top: "conv4_31_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7101,7 +6931,6 @@ layer {
   top: "conv4_31_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7134,7 +6963,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7208,7 +7036,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7249,7 +7076,6 @@ layer {
   top: "conv4_32_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7267,7 +7093,6 @@ layer {
   top: "conv4_32_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7300,7 +7125,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7374,7 +7198,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7415,7 +7238,6 @@ layer {
   top: "conv4_33_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7433,7 +7255,6 @@ layer {
   top: "conv4_33_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7466,7 +7287,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7540,7 +7360,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7581,7 +7400,6 @@ layer {
   top: "conv4_34_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7599,7 +7417,6 @@ layer {
   top: "conv4_34_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7632,7 +7449,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7706,7 +7522,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7747,7 +7562,6 @@ layer {
   top: "conv4_35_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7765,7 +7579,6 @@ layer {
   top: "conv4_35_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7798,7 +7611,6 @@ layer {
   convolution_param {
     num_output: 256
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7872,7 +7684,6 @@ layer {
   convolution_param {
     num_output: 1024
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7913,7 +7724,6 @@ layer {
   top: "conv4_36_1x1_down"
   convolution_param {
     num_output: 64
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7931,7 +7741,6 @@ layer {
   top: "conv4_36_1x1_up"
   convolution_param {
     num_output: 1024
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -7964,7 +7773,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 2
   }
@@ -8038,7 +7846,6 @@ layer {
   convolution_param {
     num_output: 2048
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8079,7 +7886,6 @@ layer {
   top: "conv5_1_1x1_down"
   convolution_param {
     num_output: 128
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8097,7 +7903,6 @@ layer {
   top: "conv5_1_1x1_up"
   convolution_param {
     num_output: 2048
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8116,7 +7921,6 @@ layer {
   convolution_param {
     num_output: 2048
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 2
   }
@@ -8161,7 +7965,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8235,7 +8038,6 @@ layer {
   convolution_param {
     num_output: 2048
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8276,7 +8078,6 @@ layer {
   top: "conv5_2_1x1_down"
   convolution_param {
     num_output: 128
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8294,7 +8095,6 @@ layer {
   top: "conv5_2_1x1_up"
   convolution_param {
     num_output: 2048
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8327,7 +8127,6 @@ layer {
   convolution_param {
     num_output: 512
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8401,7 +8200,6 @@ layer {
   convolution_param {
     num_output: 2048
     bias_term: false
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8442,7 +8240,6 @@ layer {
   top: "conv5_3_1x1_down"
   convolution_param {
     num_output: 128
-    pad: 0
     kernel_size: 1
     stride: 1
   }
@@ -8460,7 +8257,6 @@ layer {
   top: "conv5_3_1x1_up"
   convolution_param {
     num_output: 2048
-    pad: 0
     kernel_size: 1
     stride: 1
   }
