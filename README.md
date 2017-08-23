@@ -1,5 +1,5 @@
 # Squeeze-and-Excitation Networks
-By Jie Hu<sup>[1]</sup>, Li Shen<sup>[2]</sup>, Gang Sun<sup>[1]</sup>, Andrew Zisserman<sup>[2]</sup>. ([arxiv](https://arxiv.org/))
+By Jie Hu<sup>[1]</sup>, Li Shen<sup>[2]</sup>, Gang Sun<sup>[1]</sup>. ([arxiv](https://arxiv.org/))
 
 [Momenta](https://momenta.ai/)<sup>[1]</sup> and University of Oxford<sup>[2]</sup>.
 
@@ -13,7 +13,7 @@ In this repository, Squeeze-and-Excitation Networks are implemented by [Caffe](h
 
 ## Trained Models
 
-Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from resized image with shorter side = 256). The SENet<sup>*</sup> is one of superior models used in [ILSVRC 2017 Image Classification Challenge](http://image-net.org/challenges/LSVRC/2017/index) where we won 1st place (Team name: [WMW](http://image-net.org/challenges/LSVRC/2017/results)).
+Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from resized image with shorter side = 256). The SENet<sup>*</sup> is one of superior models used in [ILSVRC 2017 Image Classification Challenge](http://image-net.org/challenges/LSVRC/2017/index) where we won the 1st place (Team name: [WMW](http://image-net.org/challenges/LSVRC/2017/results)).
 
 | Model | Top-1 | Top-5 | Size | Caffe Model |
 |:-:|:-:|:-:|:-:|:-:|
