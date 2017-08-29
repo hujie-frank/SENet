@@ -22,6 +22,15 @@ By Jie Hu<sup>[1]</sup>, Li Shen<sup>[2]</sup>, Gang Sun<sup>[1]</sup>. ([arxiv]
 ## Implementation
 In this repository, Squeeze-and-Excitation Networks are implemented by [Caffe](https://github.com/BVLC/caffe).
 
+### Augmentation
+| Method | Settings |
+|:-:|:-:|
+|Random Mirror| True |
+|Random Crop| 8% ~ 100% |
+|Aspect Ratio | 3/4 ~ 4/3 |
+|Random Rotation| -10° ~ 10°|
+|Pixel Jitter| -20 ~ 20 |
+
 ### Note:
 * For efficient training and testing, we combine the consecutive operations ***channel-wise scale*** and ***element-wise summation*** into a single layer **"Axpy"** in the architectures with skip-connections, resulting in considerable memory and time comsuming reduce.
 
