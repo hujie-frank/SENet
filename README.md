@@ -55,6 +55,10 @@ We re-train all above models on a single GPU server equipped with 8 NVIDIA Titan
 using a mini-batch of 256 and a initial learning rate of 0.1 with more epoches. 
 In our paper, we use large batch-size (1024) and learning rate (0.6). 
 
+## Third-party re-implementations
+0. Caffe. SE-mudolues cooperate with modificated ResNet-50 which uses stride 2 in the 3x3 convolution instead of the first 1x1 convolution, obtaining better performance: [Repository](https://github.com/shicai/SENet-Caffe).
+0. TensorFlow. SE-modules cooperate with pre-activation ResNet-50 which follows the setup in [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch): [Code](https://github.com/ppwwyyxx/tensorpack/tree/master/examples/ResNet).
+
 ## Citation
 
 If you use Squeeze-and-Excitation Networks in your research, please cite the paper:
