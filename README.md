@@ -5,7 +5,7 @@ By Jie Hu<sup>[1]</sup>, Li Shen<sup>[2]</sup>, Gang Sun<sup>[1]</sup>.
 
 ## Approach
 <div align="center">
-  <img src="https://github.com/hujie-frank/SENet/blob/master/figures/SE-building-block.jpg">
+  <img src="https://github.com/hujie-frank/SENet/blob/master/figures/SE-pipeline.jpg">
 </div>
 <p align="center">
   Figure 1: Diagram of a Squeeze-and-Excitation building block.
