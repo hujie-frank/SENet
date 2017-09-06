@@ -32,13 +32,13 @@ In this repository, Squeeze-and-Excitation Networks are implemented by [Caffe](h
 |Pixel Jitter| -20 ~ 20 |
 
 ### Note:
-* For efficient training and testing, we combine the consecutive operations ***channel-wise scale*** and ***element-wise summation*** into a single layer **"Axpy"** in the architectures with skip-connections, resulting in considerable memory and time comsuming reduce.
+* To achieve efficient training and testing, we combine the consecutive operations ***channel-wise scale*** and ***element-wise summation*** into a single layer **"Axpy"** in the architectures with skip-connections, resulting in considerable reduction on memory cost and computational burden.
 
-* Additonally, we found that the ***global average pooling*** implemented by cuDNN or BVLC/caffe is much slow on GPU. So we re-implement this operation on GPU and achieve a significant speedup. 
+* In addition, we found that the implementation for ***global average pooling*** on GPU supported by cuDNN and BVLC/caffe is less efficient. In this regard, we re-implement the operation which achieves significant acceleration.
 
 ## Trained Models
 
-Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from resized image with shorter side = 256). The SENet<sup>*</sup> is one of superior models used in [ILSVRC 2017 Image Classification Challenge](http://image-net.org/challenges/LSVRC/2017/index) where we won the 1st place (Team name: [WMW](http://image-net.org/challenges/LSVRC/2017/results)).
+Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from resized image with shorter side = 256). The SENet<sup>*</sup> is one of our superior models used in [ILSVRC 2017 Image Classification Challenge](http://image-net.org/challenges/LSVRC/2017/index) where we won the 1st place (Team name: [WMW](http://image-net.org/challenges/LSVRC/2017/results)).
 
 | Model | Top-1 | Top-5 | Size | Caffe Model |
 |:-:|:-:|:-:|:-:|:-:|
@@ -50,10 +50,10 @@ Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from r
 |SE-ResNeXt-101 (32 x 4d) | 19.81 | 4.96 | 187 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWleklsNzBiZlprblk/view?usp=sharing)
 |SENet<sup>*</sup> | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing)
 
-Here we obtain better performances than those reported in the paper.
-We re-train all above models on a single GPU server equipped with 8 NVIDIA Titan X cards, 
+Here we obtain better performance than those reported in the paper.
+We re-train the SENets described in the paper on a single GPU server with 8 NVIDIA Titan X cards, 
 using a mini-batch of 256 and a initial learning rate of 0.1 with more epoches. 
-In our paper, we use large batch-size (1024) and learning rate (0.6). 
+In contrast, the results reported in the paper were obtained by training the networks with a larger batch size (1024) and learning rate (0.6) across 4 servers. 
 
 ## Third-party re-implementations
 0. Caffe. SE-mudolues cooperate with modificated ResNet-50 which uses stride 2 in the 3x3 convolution instead of the first 1x1 convolution, obtaining better performance: [Repository](https://github.com/shicai/SENet-Caffe).
