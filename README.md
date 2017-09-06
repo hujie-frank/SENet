@@ -1,5 +1,5 @@
 # Squeeze-and-Excitation Networks
-By Jie Hu<sup>[1]</sup>, Li Shen<sup>[2]</sup>, Gang Sun<sup>[1]</sup>. ([arxiv](https://arxiv.org/))
+By Jie Hu<sup>[1]</sup>, Li Shen<sup>[2]</sup>, Gang Sun<sup>[1]</sup>. ([arxiv](https://arxiv.org/pdf/1709.01507.pdf))
 
 [Momenta](https://momenta.ai/)<sup>[1]</sup> and [University of Oxford](http://www.robots.ox.ac.uk/~vgg/)<sup>[2]</sup>.
 
@@ -66,6 +66,6 @@ If you use Squeeze-and-Excitation Networks in your research, please cite the pap
     @article{hu2017,
       title={Squeeze-and-Excitation Networks},
       author={Jie Hu and Li Shen and Gang Sun},
-      journal={arXiv preprint arXiv:},
+      journal={arXiv preprint arXiv:1709.01507},
       year={2017}
     }
