@@ -32,7 +32,7 @@ In this repository, Squeeze-and-Excitation Networks are implemented by [Caffe](h
 |Pixel Jitter| -20 ~ 20 |
 
 ### Note:
-* To achieve efficient training and testing, we combine the consecutive operations ***channel-wise scale*** and ***element-wise summation*** into a single layer **"Axpy"** in the architectures with skip-connections, resulting in a considerable reduction on memory cost and computational burden.
+* To achieve efficient training and testing, we combine the consecutive operations ***channel-wise scale*** and ***element-wise summation*** into a single layer **"Axpy"** in the architectures with skip-connections, resulting in a considerable reduction in memory cost and computational burden.
 
 * In addition, we found that the implementation for ***global average pooling*** on GPU supported by cuDNN and BVLC/caffe is less efficient. In this regard, we re-implement the operation which achieves significant acceleration.
 
