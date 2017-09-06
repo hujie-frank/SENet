@@ -16,7 +16,7 @@ By Jie Hu<sup>[1]</sup>, Li Shen<sup>[2]</sup>, Gang Sun<sup>[1]</sup>.
   <img src="https://github.com/hujie-frank/SENet/blob/master/figures/SE-ResNet-module.jpg"  width="420">
 </div>
 <p align="center">
-  Figure 2: Schema of SE-Inception and SE-ResNet modules. 
+  Figure 2: Schema of SE-Inception and SE-ResNet modules. We set r=16 in all our models.
 </p>
 
 ## Implementation
