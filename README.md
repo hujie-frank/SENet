@@ -51,14 +51,13 @@ Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from r
 |SENet<sup>*</sup> | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing)
 
 Here we obtain better performance than those reported in the paper.
-We re-train the SENets described in the paper on a single GPU server with 8 NVIDIA Titan X cards, 
-using a mini-batch of 256 and a initial learning rate of 0.1 with more epoches. 
+We re-train the SENets described in the paper on a single GPU server with 8 NVIDIA Titan X cards, using a mini-batch of 256 and a initial learning rate of 0.1 with more epoches. 
 In contrast, the results reported in the paper were obtained by training the networks with a larger batch size (1024) and learning rate (0.6) across 4 servers. 
 
 ## Third-party re-implementations
-0. Caffe. SE-mudolues cooperate with modificated ResNet-50 which uses stride 2 in the 3x3 convolution instead of the first 1x1 convolution, obtaining better performance: [Repository](https://github.com/shicai/SENet-Caffe).
-0. TensorFlow. SE-modules cooperate with pre-activation ResNet-50 which follows the setup in [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch): [Code](https://github.com/ppwwyyxx/tensorpack/tree/master/examples/ResNet).
-
+0. Caffe. SE-mudolues are integrated with a modificated ResNet-50 using a stride 2 in the 3x3 convolution instead of the first 1x1 convolution which obtains better performance: [Repository](https://github.com/shicai/SENet-Caffe).
+0. TensorFlow. SE-modules are integrated with a pre-activation ResNet-50 which follows the setup in [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch): [Repository](https://github.com/ppwwyyxx/tensorpack/tree/master/examples/ResNet).
+0. MatConvNet. All the released SENets are imported into [MatConvNet](https://github.com/vlfeat/matconvnet): [Repository](https://github.com/albanie/mcnSENets).
 ## Citation
 
 If you use Squeeze-and-Excitation Networks in your research, please cite the paper:
