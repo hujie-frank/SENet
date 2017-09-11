@@ -59,7 +59,7 @@ void AxpyLayer<Dtype>::Backward_cpu(const vector<Blob<Dtype>*>& top,
     Dtype* scale_diff = bottom[0]->mutable_cpu_diff();
     caffe_mul(count, top_diff, x_data, x_diff);
     caffe_set(bottom[0]->count(), Dtype(0), scale_diff);
-    caffe_gpu_gemv(CblasNoTrans, bottom[0]->count(), spatial_dim, Dtype(1),
+    caffe_cpu_gemv(CblasNoTrans, bottom[0]->count(), spatial_dim, Dtype(1),
         x_diff, spatial_sum_multiplier_.cpu_data(), Dtype(1), scale_diff); 
     if (!propagate_down[1]) {
       caffe_set(bottom[1]->count(), Dtype(0), x_diff);
