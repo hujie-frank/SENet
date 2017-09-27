@@ -57,7 +57,11 @@ In contrast, the results reported in the paper were obtained by training the net
 ## Third-party re-implementations
 0. Caffe. SE-mudolues are integrated with a modificated ResNet-50 using a stride 2 in the 3x3 convolution instead of the first 1x1 convolution which obtains better performance: [Repository](https://github.com/shicai/SENet-Caffe).
 0. TensorFlow. SE-modules are integrated with a pre-activation ResNet-50 which follows the setup in [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch): [Repository](https://github.com/ppwwyyxx/tensorpack/tree/master/examples/ResNet).
+0. TensorFlow. Simple Tensorflow implementation of SENets using Cifar10: [Repository](https://github.com/taki0112/SENet-Tensorflow).
 0. MatConvNet. All the released SENets are imported into [MatConvNet](https://github.com/vlfeat/matconvnet): [Repository](https://github.com/albanie/mcnSENets).
+0. MXNet. SE-modules are integrated with the ResNeXt and more architectures are coming soon: [Repository](https://github.com/bruinxiong/SENet.mxnet).
+0. PyTorch. Implementation of SENets by PyTorch: [Repository](https://github.com/moskomule/senet.pytorch).
+0. Chainer. Implementation of SENets by Chainer: [Repository](https://github.com/nutszebra/SENets).
 ## Citation
 
 If you use Squeeze-and-Excitation Networks in your research, please cite the paper:
