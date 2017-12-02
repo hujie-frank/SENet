@@ -40,15 +40,15 @@ In this repository, Squeeze-and-Excitation Networks are implemented by [Caffe](h
 
 Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from resized image with shorter side = 256). The SENet<sup>*</sup> is one of our superior models used in [ILSVRC 2017 Image Classification Challenge](http://image-net.org/challenges/LSVRC/2017/index) where we won the 1st place (Team name: [WMW](http://image-net.org/challenges/LSVRC/2017/results)).
 
-| Model | Top-1 | Top-5 | Size | Caffe Model |
-|:-:|:-:|:-:|:-:|:-:|
-|SE-BN-Inception| 23.62 | 7.04 | 46 M| [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlTWRRbDZYbVB2WWc/view?usp=sharing)
-|SE-ResNet-50   | 22.37 | 6.36 | 107 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlS2QwZHFzM3RjNzg/view?usp=sharing)
-|SE-ResNet-101  | 21.75  | 5.72 | 189 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlTEg4YmcwQ0FoZFU/view?usp=sharing)
-|SE-ResNet-152  | 21.34  | 5.54 | 256 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlcFE0Q2NTcWl3WUE/view?usp=sharing)
-|SE-ResNeXt-50 (32 x 4d) | 20.97 | 5.54 | 105 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlQ2Z0Q204V1RITjA/view?usp=sharing)
-|SE-ResNeXt-101 (32 x 4d) | 19.81 | 4.96 | 187 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWleklsNzBiZlprblk/view?usp=sharing)
-|SENet<sup>*</sup> | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing)
+| Model | Top-1 | Top-5 | Size | Caffe Model | Caffe Model
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|SE-BN-Inception| 23.62 | 7.04 | 46 M| [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlTWRRbDZYbVB2WWc/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1qYoPdak)
+|SE-ResNet-50   | 22.37 | 6.36 | 107 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlS2QwZHFzM3RjNzg/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1gf5wsLl)
+|SE-ResNet-101  | 21.75  | 5.72 | 189 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlTEg4YmcwQ0FoZFU/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1c1FvCWg)
+|SE-ResNet-152  | 21.34  | 5.54 | 256 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlcFE0Q2NTcWl3WUE/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1dFEnSzR)
+|SE-ResNeXt-50 (32 x 4d) | 20.97 | 5.54 | 105 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlQ2Z0Q204V1RITjA/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1dFbEmbv)
+|SE-ResNeXt-101 (32 x 4d) | 19.81 | 4.96 | 187 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWleklsNzBiZlprblk/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1qY2wjt6)
+|SENet<sup>*</sup> | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1o7HdfAE)
 
 Here we obtain better performance than those reported in the paper.
 We re-train the SENets described in the paper on a single GPU server with 8 NVIDIA Titan X cards, using a mini-batch of 256 and a initial learning rate of 0.1 with more epoches. 
