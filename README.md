@@ -48,7 +48,7 @@ Table 1. Single crop validation error on ImageNet-1k (center 224x224 crop from r
 |SE-ResNet-152  | 21.34  | 5.54 | 256 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlcFE0Q2NTcWl3WUE/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1dFEnSzR)
 |SE-ResNeXt-50 (32 x 4d) | 20.97 | 5.54 | 105 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlQ2Z0Q204V1RITjA/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1dFbEmbv)
 |SE-ResNeXt-101 (32 x 4d) | 19.81 | 4.96 | 187 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWleklsNzBiZlprblk/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1qY2wjt6)
-|SENet<sup>*</sup> | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1o7HdfAE)
+|SENet-154 | 18.68 | 4.47 | 440 M | [GoogleDrive](https://drive.google.com/file/d/0BwHV3BlNKkWlbTFZbzFTSXBUTUE/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1o7HdfAE)
 
 Here we obtain better performance than those reported in the paper.
 We re-train the SENets described in the paper on a single GPU server with 8 NVIDIA Titan X cards, using a mini-batch of 256 and a initial learning rate of 0.1 with more epoches. 
