@@ -66,9 +66,9 @@ In contrast, the results reported in the paper were obtained by training the net
 
 If you use Squeeze-and-Excitation Networks in your research, please cite the paper:
     
-    @article{hu2017,
+    @inproceedings{hu2018,
       title={Squeeze-and-Excitation Networks},
       author={Jie Hu and Li Shen and Gang Sun},
-      journal={arXiv preprint arXiv:1709.01507},
-      year={2017}
+      journal={IEEE Conference on Computer Vision and Pattern Recognition},
+      year={2018}
     }
